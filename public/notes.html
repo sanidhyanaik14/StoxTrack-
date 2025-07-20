@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Notes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <div class="nav">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="notes.html">Notes</a></li>
+      </ul>
+      <h1 id="logo">StoxTrack</h1>
+    </nav>
+  </div>
+
+
+  <div class="notes-wrapper">
+
+    <div class="notes-container">
+      <div class="notes-header">
+        <h1>📝 Notes</h1>
+        <p id="currentDate"></p>
+      </div>
+
+      <textarea id="noteArea" placeholder="Start writing your notes here..."></textarea>
+
+      <button id="saveBtn">💾 Save</button>
+      <button id="viewNotesBtn">📖 View My Notes</button>
+
+      <p id="statusMessage"></p>
+    </div>
+
+   
+    <div id="savedNotesContainer" class="notes-display">
+     
+    </div>
+
+  </div>
+
+  <script src="notes.js"></script>
+</body>
+</html>

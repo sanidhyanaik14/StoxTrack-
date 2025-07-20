@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StoxTrack</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chart.html">Charts</a></li>
+        <li><a href="notes.html">Notes</a></li>
+      </ul>
+      <div class="nav-right">
+        <!-- Login icon-->
+        <div id="auth-links">
+          <a href="./register.html" class="login-icon">
+            <img src="./images/icon.png" alt="Login" style="height: 32px; width: 32px;" />
+          </a>
+        </div>
+
+        <!-- LoginGreetings -->
+        <div id="user-greeting" style="color: rgb(255, 252, 252); margin-right: 10px;"></div>
+        <button id="logout-btn">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home">
+    <img src="./images/backimg.png" alt="Background" />
+    <div class="home-content">
+      
+    </div>
+  </section>
+
+  <!-- Chart Container -->
+<section id="watchlist-chart" class="chart-section">
+  <div id="chart" style="width: 100%; height: 400px;"></div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
